@@ -1,0 +1,161 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("/Images/BG.svg");
+}
+
+.menu-haut {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #525252;
+    width: 100%;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 65px;
+    border-bottom: 3px solid #303030;
+    margin: 0;
+}
+
+.menu-haut ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-haut li {
+    display: inline; 
+}
+
+.menu-haut li a {
+    text-decoration: none;
+    font-size: large;
+    padding: 20px 60px;
+    color: #96ffe3;
+    transition: 0.5s;
+}
+
+.menu-haut a:hover {
+    background: #303030;
+    color: #36ffc8;
+}
+
+.contenu {
+    margin-top: 120px;
+    text-align: center;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #525252;
+}
+
+.contenu button {
+    background-color: #525252;
+    border: 2px solid #525252;
+    padding: 14px 14px;
+    display: inline-block;
+    text-align: center;
+    font-size: large;
+    border-radius: 12px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+
+.contenu button:hover {
+    background: white;
+}
+
+.contenu button a {
+    color: #96ffe3;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.contenu button a:hover {
+    color: #303030;
+}
+
+.extra-grand {
+    font-size: xxx-large;
+}
+
+.grand {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.bas-page {
+    overflow: hidden;
+    bottom: 0;
+    background-color: #525252;
+    width: 100%;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-top: 3px solid #303030;
+    color: black;
+}
+
+.bas-page ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bas-page li {
+    display: inline; 
+}
+
+.bas-page li a {
+    text-decoration: none;
+    font-size: large;
+    padding: 20px 60px;
+    color: #96ffe3;
+    transition: 0.5s;
+}
+
+.bas-page a:hover {
+    background: #303030;
+    color: #36ffc8;
+}
+
+.boite-description {
+    background-color: rgba(82,82,82,.8);
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+    border: 3px solid #525252;
+    border-radius: 6px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.boite-competences {
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+}
+
+.ligne {
+    width: 60%;
+}
+
+.img {
+    width: 50%;
+}
+
+.fleche a {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 100px;
+    color: #525252;
+    transition: 0.5s;
+}
+
+.fleche a:hover {
+    color: cornflowerblue;
+}
+
